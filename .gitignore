@@ -1,0 +1,8 @@
+  
+src/dist/
+.DS_Store
+coverage/
+.nyc_output/
+.env
+node_modules
+.vscode
