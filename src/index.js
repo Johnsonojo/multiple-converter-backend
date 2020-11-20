@@ -3,14 +3,14 @@ import router from "./routes";
 import registerMiddlewares from "./middlewares";
 
 const app = express();
+const PORT = process.env.PORT || 5000;
 
 registerMiddlewares(app);
 
 app.use(router);
 
-const port = parseInt(process.env.PORT, 10) || 4400;
-app.set("port", port);
-
-app.listen(port, () => console.log("Server is running on port ", port));
+app.listen(PORT, () =>
+  console.log(`Multiple Converter Backend is running on ${PORT}`)
+);
 
 export default app;
