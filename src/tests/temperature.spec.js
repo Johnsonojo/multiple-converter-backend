@@ -48,7 +48,7 @@ describe("Temperature Controller", () => {
   });
 
   describe("Kelvin Conversion", () => {
-    it("should convert kelvin temperature values", async () => {
+    it("should convert kelvin temperature value", async () => {
       const res = await req.post("/api/v1/temperature").send(kelvin);
       expect(res.status).to.equal(200);
       expect(res.body.status).to.equal("success");
