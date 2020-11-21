@@ -3,7 +3,7 @@ import router from "./routes";
 import registerMiddlewares from "./middlewares";
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4400;
 
 registerMiddlewares(app);
 
