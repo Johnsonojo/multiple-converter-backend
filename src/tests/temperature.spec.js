@@ -1,9 +1,9 @@
 import chaiHttp from "chai-http";
 import chai from "chai";
 import app from "../index";
-import typeAndValue from "./__mock__/temperatureData";
+import temperatureTypeAndValue from "./__mock__/temperatureData";
 
-const { celsius, fahrenheit, kelvin } = typeAndValue;
+const { celsius, fahrenheit, kelvin } = temperatureTypeAndValue;
 
 let req;
 const { expect } = chai;

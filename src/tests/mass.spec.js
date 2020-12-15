@@ -1,9 +1,9 @@
 import chai from "chai";
 import chaiHttp from "chai-http";
 import app from "../index";
-import typeAndValue from "./__mock__/massData";
+import massTypeAndValue from "./__mock__/massData";
 
-const { tonne, kilogram } = typeAndValue;
+const { tonne, kilogram } = massTypeAndValue;
 
 let req;
 const { expect } = chai;
