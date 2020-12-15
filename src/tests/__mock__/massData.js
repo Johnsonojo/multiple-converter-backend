@@ -1,4 +1,4 @@
-const typeAndValue = {
+const massTypeAndValue = {
   tonne: {
     massValue: 40,
     massType: "Tonne",
@@ -41,4 +41,4 @@ const typeAndValue = {
   },
 };
 
-export default typeAndValue;
+export default massTypeAndValue;

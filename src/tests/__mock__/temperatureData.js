@@ -1,4 +1,4 @@
-const typeAndValue = {
+const temperatureTypeAndValue = {
   celsius: {
     tempValue: -40,
     tempType: "celsius",
@@ -13,4 +13,4 @@ const typeAndValue = {
   },
 };
 
-export default typeAndValue;
+export default temperatureTypeAndValue;
